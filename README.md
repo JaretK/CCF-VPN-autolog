@@ -11,7 +11,7 @@ connect 4Corners
 PASSWORD
 ```
 
-3) Replace PASSWORD with your login password. This will change whenever you are prompted to change the password every few months. 
+3) Replace PASSWORD with your login password. Be sure to change this whenever you change your password every few months (it is the same password that is used to log into your computer). 
 4) Save this file as 4Corners_cisco_profile.txt in the directory specified above (once again, it's probably "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client"). 
 5) Open a new file in the text editor
 6) Make your case profile. Copy the below text into the new text editor file [NOTE: make sure there are no empty lines above "connect vpn.case.edu" and below "y", but there SHOULD be two empty lines above "PASSWORD"]:  
