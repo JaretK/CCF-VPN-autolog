@@ -5,14 +5,14 @@ Logs the user into the CCF VPN or vpn.case.edu when the program is launched (it 
 To make it work, you need to place your 4Corners and case vpn profiles into the default install filepath or whatever filepath is specified in the beginning of the script. The default path in the script is "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client". Change the line 'cd "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client"' to what your install filepath is (you probably don't need to change it!). Follow the below steps to add the profiles:
 
 1) Open a text editor (notepad is fine)
-2) Make your 4Corners profile. Copy the below text into the text editor [NOTE: make sure there are no empty lines]:
+2) Make your 4Corners profile. Copy the below text into the text editor [NOTE: make sure there are no empty lines]:  
 connect 4Corners  
 PASSWORD  
 
 3) Replace PASSWORD with your login password. This will change whenever you are prompted to change the password every few months. 
 4) Save this file as 4Corners_cisco_profile.txt in the directory specified above (once again, it's probably "C:\Program Files (x86)\Cisco\Cisco AnyConnect Secure Mobility Client"). 
 5) Open a new file in the text editor
-6) Make your case profile. Copy the below text into the new text editor file [NOTE: make sure there are no empty lines above "connect vpn.case.edu" and below "y", but there SHOULD be two empty lines above "PASSWORD"]:
+6) Make your case profile. Copy the below text into the new text editor file [NOTE: make sure there are no empty lines above "connect vpn.case.edu" and below "y", but there SHOULD be two empty lines above "PASSWORD"]:  
 connect vpn.case.edu  
   
   
