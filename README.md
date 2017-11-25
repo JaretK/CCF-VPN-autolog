@@ -7,7 +7,7 @@ To make it work, you need to place your 4Corners and case vpn profiles into the 
 1) Open a text editor (notepad is fine)
 2) Make your 4Corners profile. Copy the below text into the text editor [NOTE: make sure there are no empty lines]:  
 ```
-connect 4Corners\n  
+connect 4Corners
 PASSWORD
 ```
 
