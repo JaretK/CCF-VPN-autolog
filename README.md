@@ -17,8 +17,8 @@ PASSWORD
 6) Make your case profile. Copy the below text into the new text editor file [NOTE: make sure there are no empty lines above "connect vpn.case.edu" and below "y", but there SHOULD be two empty lines above "PASSWORD"]:  
 ```
 connect vpn.case.edu  
-  
-  
+
+
 PASSWORD  
 push  
 y
